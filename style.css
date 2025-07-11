@@ -1,0 +1,153 @@
+header {
+    /* background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center; */
+    background-image: url("./B12A01-landing-launchpad/Assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+    height: 698px;
+}
+.banner {
+    width: 1140px;
+    height: 151px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 100px;
+}
+.button  {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.banner h1 {
+    font-size: 36px;
+    color: white;
+}
+.bannerbody {
+    width: 905px;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 270px;
+    text-align: center;
+    padding: 5px;
+}
+#stay-focused {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button {
+    transition: background-color 0.3s, transform 0.3s;
+}
+button:hover {
+    background-color: #262628;
+    transform: scale(1.05);
+}
+.button {
+    background: linear-gradient(90deg, #4E47FF 0%,#FF6F61 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.action-container {
+    width: 1140px;
+    height: 151px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding: 20px;
+    margin-left: 100px;
+}
+.action-image {
+    width: 403px;
+    height: 328px;
+    border-radius: 30px;
+}
+.action{
+    display: flex;
+    flex-direction:flex-start;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    gap: 40px;
+    background: rgba(255,255,255,0.10);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    border-radius: 24px;
+    padding: 32px;
+    backdrop-filter: blur(4px);
+}
+.action-button{
+   background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #4E47FF 0%, #FF6F61 100%);
+    box-shadow: 0 4px 16px rgba(78, 71, 255, 0.2);
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+.productive-user{
+    text-align: center;
+    height: 306px;
+    width: 1140px;
+    background: #d0e7fa;
+    border-radius: 16px;
+    padding: 32px 0;
+    position: relative;
+    overflow: hidden;
+    line-height: 30px;
+
+}
+.productive-user-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+    width: 600px;
+    margin-left: 260px;
+}
+h2{
+    font-size: 60px;
+    font-weight: 700;
+    color:#4E47FF;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    text-shadow: 0 2px 8px rgba(78, 71, 255, 0.08);
+}
+#para{
+    font-size: 50px;
+    color: #333;
+    opacity:0.05;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+}
+.productive-user-heading{
+    font-size: 36px;
+    font-weight: 700;
+    color: #4E47FF;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
